@@ -1,0 +1,143 @@
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    height: 80px;
+    /* text-align: center; */
+    align-content: center;
+    font-family: Tahoma;
+    background-color:crimson;
+    padding: 10px 250px 10px 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0.2px 5px black;
+    color: white;
+}
+
+.header .right a{
+    font-size: 20px;
+    text-decoration: none;
+    background-color:rgba(250, 235, 215, 0.245);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.body{
+    /* height: auto; */
+    padding: 0 100px;
+    display: flex;
+    position: relative;
+}
+.body .colleges{
+    /* margin: 0 150px 0 0; */
+    padding: 50px 50px 50px 0;
+    border-right: 5px solid black;
+    /* width: 600px; */
+    
+}
+
+.body .colleges a{
+    display: block;
+    font-family: Tahoma;
+    font-size: 15px;
+    background-color: hsla(0, 0%, 95%, 0.8);
+    border: 1px solid black;  
+    padding: 10px;  
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    margin: 0 0 2px 0;
+    transition: 0.5s;
+}
+.body .colleges a:hover{
+    /* background-color: hsla(0, 0%, 70%, 0.8); */
+    background-color: hsla(114, 83%, 72%, 0.586);
+    /* font-size: 16px; */
+
+
+}
+
+/* .body .programs{
+    width: auto;
+} */
+
+
+.body .building-picture-box{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 50px 20px;
+    border-radius: 5px;
+    margin: 0 0 20px 0;
+    position: absolute;
+    right: 250px;
+}
+
+.body .logo-picture-box{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 40px 20px;
+    border-radius: 50%;
+    margin: 0 0 20px 0;
+    position: absolute;
+    right: 450px;
+    top: 60px;
+}
+
+
+.body .right-side{
+    padding: 50px 0 0 150px ;
+    width: 100%;
+    font-family: 'Segoe UI';
+    
+}
+
+.body .right-side .program-wrapper p{
+    font-size: 20px;
+    margin: 0 0 10px 0;
+
+}
+
+.body .programs{
+    margin-top: 100px;
+}
+
+.body .right-side .programs{
+    display: flex;
+    flex-direction: column;
+}
+
+.body .right-side .programs a{
+    /* letter-spacing: 1.2px; */
+    display: inline-block;
+    margin: 0 0 10px 0;
+    color: black;
+    /* text-decoration: none; */
+    text-underline-offset: 4px;
+}
+
+.body .right-side .college-name{
+    font-size: 20px;
+    margin: 40px 0 0 0;
+}
+
+/* .footer{
+    height: 50px;
+} */
+
+/* ----------------------- For Colleges Landing Temp CCS -----------------------*/
+
+.body .right-side img{
+    width: 400px;
+    text-align: center;
+    position: absolute;
+    right: 450px;
+    top: 100px;
+}

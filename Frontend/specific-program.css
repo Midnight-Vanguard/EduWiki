@@ -1,0 +1,80 @@
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Tahoma;    
+}
+
+
+.header{
+    height: 80px;
+    text-align: center;
+    align-content: center;
+    /* background-color: hsla(0, 0%, 80%, 0.8); */
+    background-color: crimson;
+    padding: 10px  150px;
+    color: white;
+    box-shadow: 0 0.2px 5px black;
+
+    
+}
+
+.body{
+    height: auto;
+    padding: 20px 350px;
+}
+
+ .body .program-name p{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 0 5px 0;
+    text-align: center;
+}
+
+.body .information{
+    /* display: flex;
+    flex-direction: column; */
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    /* display: inline-block; */
+    text-align: center;
+    padding: 5px 0;
+}
+
+.body .information a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    margin: 0 50px 0 0;
+    padding: 7px 5px;
+}
+
+
+.body .information a:hover, .body .information a:first-of-type{
+    background-color: hsla(114, 83%, 72%, 0.586);
+
+}
+
+.body .content{
+    margin: 100px 85px;
+}
+/*
+.stereotypes-wrapper, .reality-wrapper, .interest-wrapper, .advice-wrapper, .struggle-wrapper{
+    margin: 100px 0 0 0;
+    text-align: center; 
+    font-size: 30px;
+}
+
+.stereotypes-wrapper h5, .reality-wrapper h5, .interest-wrapper h5, .advice-wrapper h5, .struggle-wrapper h5{
+    background-color: aliceblue;
+    margin: 0 0 20px 0;
+    font-weight: 200;
+}
+
+
+.stereotypes-wrapper .stereotype-content p, .reality-wrapper .reality-content p, .interest-wrapper .interest-content, .advice-wrapper .advice-content, .struggle-wrapper .struggle-content{
+    font-size: 15px; 
+} */
+
+
+

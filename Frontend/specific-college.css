@@ -1,0 +1,55 @@
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Tahoma;    
+}
+
+
+.header{
+    height: 80px;
+    text-align: center;
+    align-content: center;
+    background-color: hsla(0, 0%, 80%, 0.8);
+    padding: 10px 0;
+    
+}
+
+.body{
+    height: 80vh;
+    padding: 60px 150px; 
+    display: flex;
+}
+
+
+.body .picture-box{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 100px;
+    border-radius: 5px;
+    margin: 0 0 20px 0;
+}
+
+.body .left-side{
+    width: 50%;
+}
+
+.body .right-side{
+    /* padding: 5% 0 0 0 ; */
+    width: 50%;
+}
+
+.body .right-side .program-wrapper p{
+    font-size: 20px;
+    margin: 0 0 10px 0;
+
+}
+
+.body .right-side .programs a{
+    /* letter-spacing: 1.2px; */
+    display: block;
+    margin: 0 0 10px 0;
+    color: black;
+    /* text-decoration: none; */
+    text-underline-offset: 4px;
+}
